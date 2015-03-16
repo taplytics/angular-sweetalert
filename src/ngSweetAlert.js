@@ -37,7 +37,7 @@
     };
 
     if (typeof exports === 'object') {
-        module.exports = definition(require('sweetAlert'));
+        module.exports = definition(require('sweetalert'));
     } else if (typeof define === 'function' && define.amd) {
         define(['sweetAlert'], definition);
     } else {
